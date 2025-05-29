@@ -109,7 +109,7 @@ def show_comments(selected_name):
 
 # --- UI ---
 st.set_page_config(page_title="Feedback Race App", layout="centered")
-st.title("💬 Гонка оценок и комментариев")
+st.title("💬 Все Анины женихи")
 
 # --- Menu buttons ---
 tab1, tab2, tab3 = st.tabs(["🟢 Я Аня", "🏁 гонка женихов", "📋 Да кто это вообще такой?"])
@@ -122,7 +122,7 @@ with tab1:
     st.button("Обновить", on_click=submit_entry)
 
 with tab2:
-    st.subheader("Гонка по оценкам")
+    st.subheader("Гонка по рейтингу")
     plot_race()
 
 with tab3:
