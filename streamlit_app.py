@@ -89,7 +89,6 @@ def plot_race():
     ax.set_xlim(-0.5, 10.5)
     ax.set_ylim(-1, len(names))
     ax.set_xlabel("Оценка")
-    ax.set_title("Кто Анин фаворит?")
     ax.grid(axis='x')
     st.pyplot(fig)
 
